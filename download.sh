@@ -19,6 +19,9 @@ else
     aria2c -c -m0 -x16 -s50 $DOWNLOAD_LINK
 fi
 
+# Print uploaded file size in bytes
+ls -l
+
 # Change back to the Old Directory
 cd -
 
